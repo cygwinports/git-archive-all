@@ -1,0 +1,14 @@
+inherit python3-wheel
+
+NAME="git-archive-all"
+VERSION=1.16.4
+RELEASE=1
+CATEGORY="Devel"
+SUMMARY="Git archive with submodules support"
+DESCRIPTION="Archives a git repository with all its submodules."
+HOMEPAGE="https://github.com/Kentzo/git-archive-all"
+SRC_URI="${HOMEPAGE}/archive/${VERSION}/git-archive-all-${VERSION}.tar.gz"
+
+ARCH=noarch
+
+REQUIRES="git"
