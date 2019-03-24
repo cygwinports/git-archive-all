@@ -1,7 +1,7 @@
 inherit python3-wheel
 
 NAME="git-archive-all"
-VERSION=1.16.4
+VERSION=1.19.4
 RELEASE=1
 CATEGORY="Devel"
 SUMMARY="Git archive with submodules support"
